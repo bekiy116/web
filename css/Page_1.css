@@ -1,0 +1,269 @@
+.main{
+    background-color: #132850;
+    background-image: url(../img/Vector_7.svg), url(../img/Vector_8.png);
+    background-size: 20% 100%, 20% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.form{
+    padding: 50px
+}
+.dflex{
+    display: flex;
+}
+
+.fRight{
+    float: right;
+}
+
+.fLeft{
+    float: left;
+}
+.center{
+    text-align: center;
+    margin: 40px;
+}
+
+.paddingDiv{
+    padding: 0 250px;
+}
+.rotate90{
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.m30{
+    margin: 30px;
+}
+.logoTxt{
+    font-family: Neutra Text;
+    font-size: 24px;
+    color: white;
+    margin-top: 15px;
+}
+.mediumText{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+.frame-48{
+    height: 680px;
+    width: 500px;
+}
+.leftMenuIcon{
+    float: left;
+    height: 6px;
+    width: 18px;
+    margin: 15px 20px
+}
+.rightMenuIcon{
+    float: right;
+    height: 6px;
+    width: 18px;
+    margin: 15px 20px
+}
+.bodytext{
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.floatText{
+    font-family: 'Montserrat';
+    color: white;
+}
+.left{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 0;
+}
+.right{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 0;
+}
+.bottom{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 50%;
+}
+.B_Icon{
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+a{
+    text-decoration: none;
+}
+/* Responsive */
+
+@media screen and (min-width:300px){
+
+    .mediumText{
+        display: none;
+    }
+    .leftMenuIcon{
+        float: left;
+        height: 4px;
+        width: 10px;
+    }
+    .rightMenuIcon{
+        float: right;
+        height: 4px;
+        width: 10px;
+    }
+    .center{
+        text-align: center;
+        margin: 5px;
+    }
+    .logoTxt{
+        font-family: Neutra Text;
+        font-size: 10px;
+        color: white;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .bodytext{
+        margin-top: 20px;
+        font-size: 15px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .paddingDiv{
+        padding: 0 150px;
+    }
+    .floatText{
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 10px;
+    }
+    .Icon_Responsive{
+        width: 10px;
+    }
+    .bottom{
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 45%;
+    }
+}
+@media screen and (min-width:576px){
+
+    .mediumText{
+        color: white!important;
+        font-size: 14px!important;
+        font-weight: 400!important;
+        display: inline!important;
+    }
+    .leftMenuIcon{
+        float: left!important;
+        height: 4px!important;
+        width: 11px!important;
+    }
+    .rightMenuIcon{
+        float: right!important;
+        height: 4px!important;
+        width: 11px!important;
+    }
+    .center{
+        text-align: center;
+        margin: 25px;
+    }
+    .logoTxt{
+        font-family: Neutra Text;
+        font-size: 19px;
+        color: white;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .bodytext{
+        margin-top: 30px;
+        font-size: 30px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .paddingDiv{
+        padding: 0 200px;
+        font-size: 30px;
+    }
+    .floatText{
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 15px;
+    }
+    .Icon_Responsive{
+        width: 15px;
+    }
+    .bottom{
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 45%;
+    }
+}
+@media screen and (min-width:768px){
+
+    .mediumText{
+        color: white!important;
+        font-size: 16px!important;
+        font-weight: 600!important;
+        display: inline!important;
+    }
+    .leftMenuIcon{
+        float: left!important;
+        height: 6px!important;
+        width: 17px!important;
+        margin: 15px 20px!important;
+    }
+    .rightMenuIcon{
+        float: right!important;
+        height: 6px!important;
+        width: 17px!important;
+        margin: 15px 20px!important;
+    }
+    .center{
+        text-align: center;
+        margin: 30px;
+    }
+    .logoTxt{
+        font-family: Neutra Text;
+        font-size: 24px;
+        color: white;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .bodytext{
+        margin-top: 100px;
+        font-size: 50px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .paddingDiv{
+        padding: 0 250px;
+    }
+    .floatText{
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 20px;
+    }
+    .Icon_Responsive{
+        width: 20px;
+    }
+    .bottom{
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        left: 45%;
+    }
+}

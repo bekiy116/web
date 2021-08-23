@@ -1,0 +1,195 @@
+.main{
+    background-color: #132850;
+    background-image: url(../img/Vector_7.svg), url(../img/Vector_8.png);
+    background-size: 20% 100%, 20% 100%;
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.form{
+    padding: 50px
+}
+.dflex{
+    display: flex;
+}
+.fLeft{
+    float: left;
+}
+.fRight{
+    float: right;
+}
+.pRelative{
+    position:relative;
+}
+.m30{
+    margin: 30px;
+}
+.CloseText{
+    color: white;
+    font-size: 30px;
+    margin-top: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.leftIcon{
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin: 15px 20px
+}
+.container{
+    margin-top: 100px;
+    width: 900px;
+    height: 900px;
+}
+.text{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+.text2{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin: 20px;
+}
+.bottomDiv{
+    position:absolute;                 
+    bottom:0;                         
+    right:0;     
+}
+/*responsive*/
+
+@media (min-width:100px) and (max-width: 575px) 
+
+{
+
+    .CloseText{
+        color: white;
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .leftIcon{
+        float: left;
+        height: 15px;
+        width: 15px;
+        margin: 5px 10px
+    }
+    .text{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .bottomDiv{
+        position:relative;                 
+        bottom:0;                         
+        text-align: center;     
+    }
+    .col_f{
+        position: absolute;
+        left: 10; 
+    }
+    .col_f_2{
+        padding-top: 30px;
+        position: absolute;
+        left: 10; 
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) 
+
+{
+    .CloseText{
+        color: white;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .leftIcon{
+        float: left;
+        height: 18px;
+        width: 18px;
+        margin: 8px 14px
+    }
+    .text{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 35px;
+        margin-top: 35px;
+    }
+}
+
+    
+@media (min-width: 768px) and (max-width:991)
+
+{
+    .CloseText{
+        color: white;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .leftIcon{
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin: 10px 16px
+    }
+    .text{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1199)
+
+{
+    .CloseText{
+        color: white;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .leftIcon{
+        float: left;
+        height: 25px;
+        width: 25px;
+        margin: 15px 20px
+    }
+    .text{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 45px;
+        margin-top: 45px;
+    }
+}
+
+@media (min-width: 1200px)
+
+{
+    .CloseText{
+        color: white;
+        font-size: 30px;
+        margin-top: 6px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .leftIcon{
+        float: left;
+        height: 30px;
+        width: 30px;
+        margin: 15px 20px
+    }
+    .text{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+}
